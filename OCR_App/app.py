@@ -45,7 +45,7 @@ def forgot_password():
             connection = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="1234",
+                password="",
                 database="numberplate"
             )
             cursor = connection.cursor()
@@ -84,7 +84,7 @@ def reset_password():
                 connection = mysql.connector.connect(
                     host="localhost",
                     user="root",
-                    password="1234",
+                    password="",
                     database="numberplate"
                 )
                 cursor = connection.cursor()
@@ -115,7 +115,7 @@ def login():
             connection = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                password="1234",
+                password="",
                 database="numberplate"
             )
             cursor = connection.cursor()
@@ -161,7 +161,7 @@ def main_page(cid):
                 connection = mysql.connector.connect(
                     host="localhost",
                     user="root",
-                    password="1234",
+                    password="",
                     database="numberplate"
                 )
                 cursor = connection.cursor()
@@ -183,7 +183,7 @@ def main_page(cid):
                 connection = mysql.connector.connect(
                     host="localhost",
                     user="root",
-                    password="1234",
+                    password="",
                     database="numberplate"
                 )
                 cursor = connection.cursor()
@@ -207,7 +207,7 @@ def main_page(cid):
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="1234",
+            password="",
             database="numberplate"
         )
         cursor = connection.cursor()
@@ -264,7 +264,7 @@ def edit_plate(plate_id):
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="1234",
+            password="",
             database="numberplate"
         )
         cursor = connection.cursor()
@@ -304,7 +304,7 @@ def delete_plate(plate_id):
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="1234",
+            password="",
             database="numberplate"
         )
         cursor = connection.cursor()
